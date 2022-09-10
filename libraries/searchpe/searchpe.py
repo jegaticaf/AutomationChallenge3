@@ -29,7 +29,7 @@ class Searchpe():
         self.browser.input_text_when_element_is_visible('//input[@placeholder="Buscar en Gob.pe"]', search_term)
         search_bar.send_keys(Keys.ENTER) 
         act_on_element('//h2[@class="text-2xl"]', "find_element")
-        time.sleep(1)
+        time.sleep(5)
         
         log_message("End - Initial Search")
 
