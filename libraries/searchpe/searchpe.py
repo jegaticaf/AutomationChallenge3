@@ -49,7 +49,7 @@ class Searchpe():
         new_url = search_filters[0]+"?"+new_filters
         self.browser.go_to(new_url)
         act_on_element('//label[text()="Informes y publicaciones"]/span', "click_element")
-        time.sleep(3)
+        time.sleep(5)
 
         log_message("End - Set the Filters")
 
